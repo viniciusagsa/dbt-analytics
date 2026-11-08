@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# dbt
+dbt/logs/
+dbt/jaffle_shop/logs/
+dbt/jaffle_shop/target/
+dbt/jaffle_shop/dbt_packages/
+
+# dbt profiles (may contain credentials)
+dbt/profiles.yml
+.user.yml
+
+# DuckDB
+data/warehouse/*.duckdb
+data/warehouse/*.wal
+*.csv
